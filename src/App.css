@@ -164,9 +164,10 @@ body {
   display: block;
 }
 .landing-page {
-  height: 650px;
+  height: 600px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 20px;
 }
 .landing-page img {
   width: 100%;
@@ -177,6 +178,39 @@ body {
 }
 .next-trip-cards-wrapper {
   background-color: white;
-  width: 100%;
   height: 650px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.next-trip-cards-wrapper .card-item {
+  width: 25%;
+  padding: 20px;
+}
+.next-trip-cards-wrapper h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+.card-details {
+  width: 100%;
+  height: 200px;
+  border-radius: 0 0 12px 12px;
+  color: white;
+}
+.card-details span {
+  display: block;
+}
+.card .card-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px 12px 0 0 ;
+}
+.card .card-image .image {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px 12px 0 0;
 }
